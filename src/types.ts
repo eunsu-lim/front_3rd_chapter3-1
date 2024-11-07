@@ -21,3 +21,6 @@ export interface EventForm {
 export interface Event extends EventForm {
   id: string;
 }
+
+export type View = "week" | "month";
+export type Direction = "prev" | "next";
